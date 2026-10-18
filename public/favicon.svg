@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="appLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="60%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <filter id="logoShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#1E40AF" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle matching header icon -->
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#appLogoGrad)" filter="url(#logoShadow)"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="15.5" fill="none" stroke="#60A5FA" stroke-width="1" stroke-opacity="0.4"/>
+
+  <!-- Calendar Icon Body in White -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top Pins -->
+    <line x1="22" y1="13" x2="22" y2="20" />
+    <line x1="42" y1="13" x2="42" y2="20" />
+
+    <!-- Calendar Box -->
+    <rect x="14" y="17" width="36" height="34" rx="6" />
+
+    <!-- Header Divider -->
+    <line x1="14" y1="27" x2="50" y2="27" />
+  </g>
+
+  <!-- Calendar Event Dots / Grid -->
+  <circle cx="23" cy="35" r="2.5" fill="#93C5FD"/>
+  <circle cx="32" cy="35" r="2.5" fill="#FFFFFF"/>
+  <circle cx="41" cy="35" r="2.5" fill="#93C5FD"/>
+  
+  <circle cx="23" cy="43" r="2.5" fill="#EF4444"/>
+  <circle cx="32" cy="43" r="2.5" fill="#FBBF24"/>
+  <circle cx="41" cy="43" r="2.5" fill="#3B82F6"/>
+
+  <!-- Sparkle badge top-right for Microstock 3-Layer Engine -->
+  <path d="M47 7 L48.8 11.2 L53 13 L48.8 14.8 L47 19 L45.2 14.8 L41 13 L45.2 11.2 Z" fill="#FDE047" stroke="#CA8A04" stroke-width="0.8"/>
+</svg>

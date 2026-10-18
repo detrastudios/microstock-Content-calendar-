@@ -1,0 +1,6 @@
+{
+  "name": "Microstock Content Calendar",
+  "description": "Panduan visual tahunan untuk merencanakan aset digital microstock berdasarkan event dan tren viral.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
